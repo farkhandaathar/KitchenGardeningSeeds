@@ -1,0 +1,39 @@
+.blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.line {
+    height: 2px;
+    background-color: lightgrey;
+}
+.notice
+{
+    width: 300px !important;
+    height:40px !important;
+    border-radius: 2px;
+    padding: 5px;
+}
+.notice > a:hover {
+    color:darkgreen !important;
+}
+.notice > a {
+    text-transform: uppercase;
+    color: darkgray !important;
+}
+.read {
+    color: darkgreen;
+}
+.read:hover {
+     color:green;
+     font-weight: bold;
+}
+.head {
+    color: darkgrey;
+}
+.head:hover {
+    cursor: pointer;
+    color: darkolivegreen;
+}

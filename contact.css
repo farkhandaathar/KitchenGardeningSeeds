@@ -1,0 +1,36 @@
+.contactt {
+    display :flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contactSec {
+       background-color: limegreen;
+       color: whitesmoke;
+       width: 350px !important;
+       height: 400px;
+       padding: 15px;
+}
+
+.mainno {
+    width:600px;
+    height: 530px;
+    
+}
+.emailno {
+    padding: 10px !important;
+    border-left: 5px solid #eee;
+}
+.note {
+    color: #008000;
+}
+.delivery {
+    color: #DAA520;
+}
+.anounce {
+    margin-left: 100px;
+}
+.form-group {
+    width: 600px;
+}

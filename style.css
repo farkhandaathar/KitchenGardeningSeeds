@@ -1,0 +1,224 @@
+.navbar {
+    background-color: #37966F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;   
+    flex-wrap: wrap;
+}
+a {
+    
+    text-decoration: none;
+}
+.navlink > a {
+    color: white;
+}
+
+.active, .navlink > a:hover{
+   background-color: whitesmoke;
+   color: #37966F !important;
+   text-decoration: none;
+   padding: 5px;
+   border : 2px seagreen;
+   border-radius: 50px;
+      
+}
+
+
+.mainheading {
+    margin-top: 10px;
+    color: darkgreen;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.feed {
+    background-color: palegreen;
+    border-width: 1px;
+    border-color: darkgreen;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10%;
+    margin-bottom: 80px !important;
+    
+}
+.mainpara , .feed{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+
+.blank
+{
+    background-color: darkgrey;
+    height: 5px;
+}
+.top
+{
+    margin-top: 50px;
+    color: darkgreen;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.block
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.block1, .block2, .block3 {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 350px;
+    height: 80;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.products {
+    text-align: center;
+    color: darkgreen;
+}
+.category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left:300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+.links > a
+{
+    color: darkgreen !important;
+}
+.links > a:hover {
+    font-weight: bolder;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+.price {
+    font-weight: bold;
+}
+.cards > button {
+    margin: 5px;
+}
+.card-title {
+    color: darkolivegreen !important;
+    font-weight: bolder !important;
+}
+.card1, .card2, .card3, .card4
+{
+    width: 300px;
+    height : 400px;
+    padding: 10px;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #37966F;
+    color: whitesmoke;
+    padding: 30px;
+}
+.head {
+    font-size: large;
+}
+.about {
+    width: 300px !important;
+}
+.policy > a {
+    color: whitesmoke !important;
+}
+.policy > a:hover {
+    font-weight: bold;
+    font-size: 18px;
+}
+.copy {
+    background-color: lavender;
+    color: darkgreen;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: normal;
+}
+.aboutbar {
+    background-color: lightgrey;
+    width: auto !important ;
+    padding-left: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aboutus {
+    color: black;
+    font-size: 48px;
+    padding-left: 100px;
+}
+.aboutpara {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+.aboutimg {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+th, td {
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    
+}
+th {
+    background-color: #dff0d8;
+    font-weight: normal !important;
+    font-size: 20px;
+}
+.x {
+    color: green;
+    font-size: 48 !important;
+    font-weight: bold;
+}
+ input
+{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+.des {
+    width:1000px !important;
+}
+.buttons {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.buttons 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
